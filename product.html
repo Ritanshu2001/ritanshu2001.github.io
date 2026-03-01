@@ -65,7 +65,7 @@ p{line-height:1.6;}
         <p id="sizes"></p>
 
         <a id="wa" class="btn">Enquire on WhatsApp</a><br>
-        <a href="index.html" class="back">⬅ Back to Home</a>
+        <a href="index.html" class="back" target="_self">⬅ Back to Home</a>
     </div>
 </div>
 
@@ -79,8 +79,13 @@ const products = {
 
 /* ---------- STATIONERY ---------- */
 
-2:{name:"JK Copier Paper – 70 GSM",desc:"Premium smooth A4 copier paper with high brightness.",uses:"Office printing & photocopy.",sizes:"A4 / A3 packs"},
-5:{name:"JK Copier Paper – 75 GSM",desc:"Economical daily-use copier paper.",uses:"Bulk office printing.",sizes:"A4 / A3 packs"},
+2:{name:"JK Copier Paper – 75 GSM",desc:"Premium smooth A4 copier paper with high brightness.",uses:"Office printing & photocopy.",sizes:"A4 / A3 packs"},
+85:{name:"Trident Spectra Paper – 75 GSM",desc:"Premium smooth and pPocket Handy A4 copier paper.",uses:"Office printing & photocopy.",sizes:"A4 / A3 packs"},
+86:{name:"Century Star Copier Paper – 75 GSM",desc:"Popular in lower sector A4 copier paper.",uses:"Office printing & photocopy.",sizes:"A4 / A3 packs"},
+87:{name:"Silverton Copier Paper – 75 GSM",desc:"Limited  A4 copier paper with high value.",uses:"Office printing & photocopy.",sizes:"A4 / A3 packs"},
+88:{name:"Bindal Copier Paper – 75 GSM",desc:"Premium Bugdet friendly A4 copier paper.",uses:"Office printing & photocopy.",sizes:"A4 / A3 packs"},
+89:{name:"Eco Rise Copier Paper – 75 GSM",desc:"Good & economical in Price A4 copier paper.",uses:"Office printing & photocopy.",sizes:"A4 / A3 packs"},
+5:{name:"JK Copier Paper – 80 GSM",desc:"Economical daily-use copier paper.",uses:"Bulk office printing.",sizes:"A4 / A3 packs"},
 8:{name:"Box File",desc:"Hard board office file with clip.",uses:"Document storage.",sizes:"A4/Legal"},
 9:{name:"Spring File",desc:"Flexible clip file.",uses:"Daily paperwork.",sizes:"A4"},
 10:{name:"Register",desc:"Strong binding ruled register.",uses:"Accounts & writing.",sizes:"100/200/300 pages"},
@@ -186,11 +191,10 @@ document.getElementById("uses").innerText = "Uses: " + p.uses;
 document.getElementById("sizes").innerText = "Available: " + p.sizes;
 
 document.getElementById("wa").href =
-"https://wa.me/917348000608?text= Hello, I want details about "+p.name;
+"https://wa.me/7348000608?text= Hello, I want details about "+p.name;
 }
 
 </script>
 
 </body>
 </html>
-
